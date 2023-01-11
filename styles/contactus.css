@@ -1,0 +1,131 @@
+* {
+    box-sizing:border-box;
+  } 
+
+/* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 15px;
+    text-align: center;
+    background-color:rgba(20, 20, 50, 0.300);
+    width:600px ;
+    height:700px ;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-spacing: 50px;
+    
+   
+  }
+  
+ .form-area input[type=Email]
+ 
+ {
+     border:none;
+     border-bottom:1px solid #ffffff;
+     background-color: transparent;
+     outline: none;
+ }
+ .button {
+  background-color:rgba(48, 221, 32, 0.37);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+}
+.button:hover {
+  background-color: #3e8e41;
+}
+
+  .form-area p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+color:white;
+height: 40px;
+display: 16px;
+width: 40x;
+
+  }
+
+h2 {
+  color:white;
+}
+
+h2.impact{
+  font-family: "Lucida Console", Courier, monospace;
+}
+h5{
+  color:white;
+}
+
+ .contactc {
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+    position: absolute; 
+    left:1400px; 
+    top:1110px;
+    height: 27%;
+  }
+  
+  /*side social media icons*/
+
+/*side bar*/
+  
+  .sidebar {
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+    background-image: url('../images1/sidebar.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    position: absolute; 
+     left: auto;
+     right:0;
+    height: 60%;
+    
+
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding:34px;
+    text-decoration: none;
+  }
+   
+  
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 200px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+/*side bar end*/

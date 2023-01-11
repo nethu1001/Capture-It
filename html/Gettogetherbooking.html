@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>About</title>
+<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+<link rel="stylesheet" type="text/css" href="../styles/Booking.css">
+<link rel="stylesheet" type="text/css" href="../styles/userlogin.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<body>
+<center>
+<img src="../images1/Logo2.jpeg" width="600" height="250">
+</center>
+<hr>
+
+<!--Start of menue bar-->
+<!--Main Menue bar-->
+
+<div class="m1">
+<ul class="m2">
+<li class="list1"><div class="activeHome"><a class="menu" href="Home.html">Home</a></div></li>
+
+<div class= "list1">
+<li class="list1"><a class="menu" href="Services.html">SERVICES</a>
+
+
+
+</li>
+
+</div>
+
+
+<li class="list1"><a class="menu" href="About.html">ABOUT</a></li>
+<li class="list1"><a class="menu" href="ContactUs.html">CONTACT US</a></li>
+
+</ul>
+
+
+
+
+<!--!end of menue bar-->
+
+
+<br><br>
+</div>
+
+
+<!--form begins-->
+<div class="inf1">
+<div class="inf">
+
+<form  action="Gettogetherbooking.php" target="" method="POST">
+<h1><center>Confrim Your Booking</center></h1>
+<h2><center>GET TOGETHER</center></h2>
+<br><br>
+<table>
+<tr>
+	<td><b>Name</b><td><input type="name" name="firstname" placeholder="First"required>
+	<input type="name" name="lastname" size="25" placeholder ="Last"required></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+	<td><b>Address</b></td>
+	<td><input type="address" name="address" placeholder="Address" required></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+<tr>
+	<td><b>Booking Date</b></td>
+	<td><input type="date" name="date" ></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+	<td><b>Email</b></b></td>
+	<td><input type="email" name="email" placeholder="Email" required></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+	<td><b>Phone number</td>
+	<td><input type="tel" name="number"placeholder="Phonenumber" pattern:[0-9]{10} required></td>
+</tr>
+
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+<tr>
+<td><b>Select Your Package</b></td>
+<td><select name="Get Together Package List" id="list">
+	<option value="0">-Select-</option>
+	<option value="1">Package 50,000 (Photos+ Video+ Photo Booth)</option>
+	<option value="2">Package 30,000 (Photos+ video)</option>
+	<option value="3">Package 12,000 (Photos)</option>
+	<option value="4">Package 60,000 (Video)</option></td>
+	</select></td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+<tr></tr>
+
+</table>
+<br>
+<input type="checkbox" id="checkbox" required onclick="enableButton()">&nbsp Agree to the terms and conditions
+<br><br>
+
+
+
+<pre>             <button type="submit" class="subbtn" id="subbtn" >Submit</button>
+<br><br>
+
+
+
+</form>
+</div>
+
+
+
+<hr>
+<marquee><b><h2><font color="#654441">What happens inside your mind can happen inside a camera... </font></h2></marquee>
+<hr>
+
+<!--footer begin-->
+
+<footer>
+<h5 align="center"><font color="black">Copyright All Right Reserved, Capture It..</font></h5>
+</footer>
+
+<!--footer End-->
+
+</body>
+</html>

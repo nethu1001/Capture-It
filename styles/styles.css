@@ -1,0 +1,190 @@
+/* Home page*/
+/* Bacground Image*/
+
+body {
+  background-image: url('../images1/Bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+/* menu bar*/
+.m2
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.m1
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #294E50;
+}
+
+/* menu bar Main Menue*/
+
+li.list1
+{
+float:left;
+}
+
+li a.menu
+{
+display:block;
+color:white;
+text-align:center;
+font-size:25px;
+padding:13px 16px;
+text-decoration: none;
+
+}
+
+.menu:hover
+{
+background-color:#848484;
+}
+
+.activeHome
+{
+background-color: #424242;
+}
+.active {
+  background-color: #848484;
+}
+
+
+/*end cart dropdown list*/
+
+/* menu bar profile*/
+.profile
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 5px;
+}
+
+.profile .profile1:hover
+{
+background:#848484;
+}
+
+.profile1
+{
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* menu bar Cart*/
+.cart
+{
+float:right;
+padding: 6px 10px;
+margin-top: 1px;
+margin-right: 0px;
+}
+
+.cart .cart1:hover
+{
+background:#848484;
+}
+
+.cart1
+{
+display:block;
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+
+/* menu bar Search bar*/
+
+.m1 .search-bar
+{
+float : right;
+}
+
+.m1 input[type=text]
+{
+padding: 6px;
+margin-top: 10px;
+margin-right: 0px;
+font-size: 15px;
+border: none;
+}
+
+/* menu bar Search bar icon*/
+
+.m1 .search-bar button
+{
+float:right;
+color:white;
+padding: 6px 15px;
+margin-top: 10px;
+margin-right: 10px;
+background: #088A29;
+font-size: 15px;
+border: none;
+cursor: pointer;
+}
+
+.m1 .search-bar button:hover
+{
+background: #848484;
+}
+/*end of menue*/
+  
+
+
+/*slide show*/
+
+.slideshow
+{
+max-width: 1200px;
+position: relative;
+width: 100%;
+margin:auto;
+}
+
+.slideundertxt
+{
+color: white;
+font-family:Trebuchet MS;
+font-size: 15px;
+padding: 8px 12px;
+position:absolute;
+bottom: 8px;
+width: 96%;
+text-align: center;
+}
+
+
+/*end slide show*/
+
+   
+
+/*footer begin*/
+
+
+
+/*footer*/
+
+footer
+{
+color:white;
+width: 100%;
+background-color: #294E50;
+padding: 1px 0px;
+}
+
+
+
+/* End Home page*/
